@@ -13,3 +13,4 @@ function currentTime() {
     watch.innerHTML = time;
 
 }
+setInterval(currentTime,1000);
