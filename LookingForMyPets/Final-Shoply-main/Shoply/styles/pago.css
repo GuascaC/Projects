@@ -1,0 +1,90 @@
+main > h1{
+    margin-top: 2%;
+    letter-spacing: 2px;
+    text-shadow: 3px 2px 1px white;
+    text-align: center;
+    font-size: xxx-large;
+}
+.form{
+    width: 90%;
+    border: 2px dashed black;
+    margin: 2% auto;
+    padding: 5% 0;
+    text-align: center;
+    background-color: white;
+}
+.formSplit{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.inputCont{
+    margin: 0 auto 20px;
+    width: 400px;
+
+}
+.inputCont > label, input, select{
+    width: 80%;
+    display: inline;
+
+}
+.inputCont > input, select{
+    margin: 20px 0;
+    padding: 10px 2%;
+    border: none;
+    border-bottom: 2px solid #BF6A4B;
+}
+.inputCont > input:focus{
+    outline: 2px solid #BF6A4B;
+    border-radius: 5px;
+}
+.inputCont label{
+    align-content: left;
+    font-size: 25px;
+}
+.inputPay{
+    margin: 2% 10%;
+    padding: 3% 0;
+    background-color: #FAE1BD;
+    border: 5px outset #FAE1BD;
+}
+.inputPay > label, input{
+    display: inline-flex;
+    flex: wrap;
+}
+.inputPay > input{
+    width: 5%;
+}
+.continue{
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 6% 12%;
+    background: #8F745A;
+    border: 5px outset #8F745A;
+}
+.continue:hover{
+    color: #8F745A;
+    border: 5px outset #8F745A;
+    background: white;
+}
+
+.alerta{
+    background-color: #BF6A4B;
+    color: white;
+    width: 25%;
+    height: 80px;    
+    position: fixed;
+    top: calc(100vh - 400px);
+    left: 600px;
+    text-align: center; 
+    cursor: pointer;  
+    padding: 2% 3%;
+    border: 1px solid black;
+    border-radius: 20px ;
+    box-shadow: 1px 1px 3px #26150F;
+    align-items: center;
+    justify-content : center;
+}

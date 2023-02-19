@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Lato';
+    background-color: #FAE1BD;
+}
+
+header{
+    width: 100%;
+    height: 15vh;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #807569;
+    box-shadow: 1px 1px 3px #26150F;
+    flex-wrap: wrap;
+}
+header > .logo{
+    margin: auto 3%;
+    padding-left: 20px;
+    align-items: center;
+    font-family: 'Satisfy';
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    overflow: hidden;
+    font-size: 60px;
+}
+header > .logo, .nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    width: 70%;
+}
+.nav > a{
+    text-shadow: 2px 1px 2px black;
+    width: 100%;
+    margin: auto 2%;
+    font-size: 19px;
+    color: white;
+    text-transform: uppercase;
+}
+a{
+    font-family: 'Lato';
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.nav > a:hover{
+    color: #FAE1BD;
+}
+
+footer{
+    width: 100%;
+    height: 28vh;
+    background-color: #807569;
+    position: relative;
+}
+
+.footerSection{
+    padding: 0.1% 2%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4% 2%;
+}
+.footerSection > .logo{
+    margin: auto 3%;
+    justify-content: center;
+    font-family: 'Satisfy';
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 0px black;
+    font-size: 70px;
+}
+
+.contacto{
+    width: 60%;
+    margin-left: 17px;
+    line-height: 43px;
+    font-family: 'Lato';
+    text-decoration: none;
+    text-transform: initial;
+    font-size: 20px;
+    padding-right: 2%;
+    text-shadow: 2px 1px 2px black;
+    color: white;
+}
+.redes{
+    align-items: center;
+    display: inline-block;
+    font-size: 13px;
+}
+.redes a{
+    width: 30%;
+    color: black;
+    font-family: 'Lato';
+    text-decoration: none;
+    text-align: center;
+    line-height: 34px;
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 1px 2px black;
+}
+.redes, .contacto{
+    margin-top: 2%;
+}
+.redes a:hover{
+    color:#FAE1BD;
+}
+@media only screen and (max-width: 1000px){
+    header > .logo{
+        font-size: 50px;
+    }
+    .nav > a{
+        margin: auto 0.8%;
+        font-size: 15px;
+    }
+    .footerSection > .logo{
+        font-size: 50px;
+    }
+    .contacto, .redes{
+        font-size: 15px;
+    }
+    .footerSection{
+        padding-top: 3%;
+    }
+    .contacto, .redes > a{
+        line-height: 22px;
+    }
+}
+@media only screen and (max-width: 800px){
+    header > .logo{
+        font-size: 40px;
+    }
+    .nav > a{
+        margin: auto 0.5%;
+        font-size: 14px;
+    }
+    .footerSection > .logo{
+        font-size: 40px;
+    }
+    .contacto, .redes{
+        font-size: 13px;
+    }
+    .footerSection{
+        padding-top: 3%;
+    }
+    .contacto, .redes > a{
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 500px){
+    header > .logo{
+        font-size: 30px;
+    }
+    .nav > a{
+        margin: auto 0.5%;
+        font-size: 10px;
+    }
+    .footerSection{
+        padding-top: 3%;
+    }
+    .footerSection > .logo{
+        font-size: 30px;
+    }
+
+    .contacto, .redes{
+        font-size: 11px;
+    }
+    .contacto, .redes > a{
+        line-height: 20px;
+    }
+}

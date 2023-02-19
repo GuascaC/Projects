@@ -1,0 +1,42 @@
+main{
+    height: 100vh;
+    margin-bottom: 15px;
+}
+
+.cuerpo{
+    align-content: center;
+    justify-content: center;
+    border: 4px outset #807569;
+    box-shadow: 1px 1px 2px black;
+    width: 70%;
+    height: 90%;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Lato';
+}
+
+.cuerpo h1{
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    background-color: #8F745A;
+    border: 5px outset #8F745A;
+    margin: 20px auto;
+    width: 85%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.mapa{
+    box-shadow: 1px 1px 2px black;
+    width: 85%;
+    height: 50vh;
+    margin: 0 80px;
+}
+
+.infoPedido{
+    width: 80%;
+    margin: 15px 65px;
+    font-size: 20px;
+    line-height: 50px;
+}

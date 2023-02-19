@@ -1,0 +1,113 @@
+.ac1{
+    margin-inline-end: 80px;
+}
+
+.ac2{
+    margin-inline-start: 120px;
+    margin-inline-end: 16px;
+}
+
+.ac3{
+    margin-inline-start: 150px;
+}
+
+.ac4{
+    margin-inline-start: 250px;
+    margin-inline-end: 40px;
+}
+
+main{
+    margin: 5% auto;
+}
+
+main > h1{
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'Lato';
+    text-shadow: 3px 3px 2px white;
+    letter-spacing: 5px;
+    font-size: 55px;   
+}
+
+.cartCont{
+    margin: 0 50px;
+    padding: 2% 1%;
+    background-color: #FAE1BD;
+    border-radius: 15px;
+    border: 5px #FF994E dashed;
+    text-align: center;
+}
+.productCont{
+    width: 100%;
+    margin: 1% auto;
+    border-radius: 15px;
+}
+.productTitles{
+    width: 100%;
+}
+.productTitles > h2{
+    display: inline-block;
+    margin: auto 1%;
+    padding: 15px 1%;
+    border-bottom:  2px solid #FF6659;
+    font-size: 1.5vw;
+}
+.productTitles > .descripcion{
+    width: 40%;
+}
+.productTitles > .producto, .nombre{
+    width: 10%;
+}
+.productTitles > .fechaEntrega{
+    width: 15%;
+}
+.productInfo{
+    width: 100%;
+    height: 10vw;
+    margin: 30px 0;
+}
+.productInfo > .product, p{
+    margin: auto 1%;
+    padding: 15px 0.5%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    height: 100%;
+}
+.productInfo > p{
+    font-size: 1.1vw;
+    font-family: 'Lato';
+}
+
+.productInfo > .product{
+    width: 10%;
+    font-size:5vw;
+    place-content: center;
+    box-shadow: 15px 18px 1px #FF6659;
+}
+.productInfo > .nameProduct{
+    width: 10%;
+}
+.infoProduct{
+    width: 40%;
+    text-align: center;
+    text-decoration: underline;
+    color: #60858F;
+}
+
+.infoProduct > .dateProduct{
+    width: 15%;
+}
+.publicity{
+    height: 10vw;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+    background-color: #807569;
+    border: 2px solid #807569;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -400px;
+}

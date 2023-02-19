@@ -1,0 +1,81 @@
+main > h1{
+    text-shadow: 3px 2px 1px white;
+    letter-spacing: 2px;
+    margin: 3% auto;
+    text-align: center;
+    font-size: xxx-large;
+}
+.form{
+    width:  90%;
+    margin: 4% auto;
+    border: 2px dashed black;
+    padding: 1% 0;
+    background-color: white;
+    text-align: center;
+}
+.cards{
+    margin: 0 auto;
+    width: 80%;
+}
+.card{
+    box-shadow: 2px 2px 1px black;
+    width: 100%;
+    margin: 4% auto;
+    padding: 30px 0;
+    background-color: #FAE1BD;
+}
+.inputCont{
+    margin: 0 3%;
+    width: 400px;
+    display: inline-block;
+}
+.inputCont > label, input, select{
+    width: 90%;
+}
+.inputCont > input, select{
+    margin: 20px 0;
+    padding: 10px 2%;
+    border: none;
+    border-bottom: 2px solid #BF6A4B;
+}
+.card > .inputCont{
+    display: inline-flexbox;
+}
+.inputCont > input:focus{
+    outline: 2px solid #BF6A4B;
+    border-radius: 5px;
+}
+.inputCont label{
+    font-size: 28px;
+}
+.continue{
+    font-size: large;
+    margin: 5% auto;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    background: #BF6A4B;
+}
+.continue:active{
+    color: #BF6A4B;
+    border: 2px solid #BF6A4B;
+    background: white;
+}
+
+.alerta{
+    background-color: #BF6A4B;
+    color: white;
+    width: 25%;
+    height: 100px;    
+    position: fixed;
+    top: calc(100vh - 400px);
+    left: 600px;
+    text-align: center; 
+    cursor: pointer;  
+    padding-top: 2.5%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px ;
+    box-shadow: 1px 1px 3px #26150F;
+}

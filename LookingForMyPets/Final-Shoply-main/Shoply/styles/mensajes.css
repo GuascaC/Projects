@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+main > h1{
+    margin-top: 2%;
+    line-height: 100px;
+    text-align: center;
+    font-size: xxx-large;
+}
+.messageCont{
+    margin: 5% 3%;
+    margin-top: 2%  ;
+    display: flex;
+    overflow: hidden;
+    border: 4px outset #26150F;
+    background-color: white;
+    border-radius: 15px;
+}
+.inputCont{
+    margin-left: 5%;
+}
+.inputCont > input{
+    width: 70%;
+    margin: 20px 0;
+    padding: 10px 2%;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #807569;
+}
+.inputCont > input:focus{
+    outline: #807569;
+}
+.searchMessage{
+    width: 25%;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 10%;
+    background: #807569;
+    align-items: center;
+}
+.searchMessage:active{
+    color: white;
+}
+.searchMessage:hover{
+    padding: 15px 23px;
+}
+
+.chats{
+    padding: 2%;
+    width: 30%;
+}
+.chatBox{
+    background-color: #a69a8530;
+    padding: 3%;
+    margin: 5% auto;
+    border-radius: 5px;
+}
+.infoChat > p{
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+.userIcon{
+    padding: 3%;
+    text-align: center;
+    font-size: xxx-large;
+    width: 70px;
+    height: 70px;
+    background-color: #BF6A4B;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.chatBox > .userIcon, .infoChat{
+    display: inline-block;
+}
+.chatBox > .infoChat{
+    padding-left: 2%;
+}
+.chatCont{
+    width: 70%;
+}
+.messages{
+    height: 85%;
+    background-color: #807569;
+}
+.inputMess{
+    width: 100%;
+    height: 15%;
+    align-items: flex-end;
+    padding: 1% 2%;
+}
+.inputMess > input, .buttonsChat{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.inputMess > input{
+    width: 90%;
+    margin: 20px auto;
+    margin-right: 1%;
+    padding: 10px 2%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #BF6A4B;
+    background-color: #a69a8530;
+}
+.buttonsChat > button{
+    margin: 0 10%;
+    color: #BF6A4B;
+    background-color: white;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}
+.sendIcon, .attachIcon{
+    font-size: x-large;
+}
